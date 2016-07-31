@@ -41,3 +41,9 @@ vsicons
 *.map,**/tmp,**/e2e,**/dist
 sudo ng generate component other
 git clone https://github.com/NahuelOlgiati/udemy-angular2-section2.git
+sudo npm install
+sudo typings install
+
+ng g c another --flat --inline-template --inline-styles
+# -f means in the same folder
+# -it and -is do not create html and css files 
