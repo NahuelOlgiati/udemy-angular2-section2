@@ -19,7 +19,7 @@ export class DatabindingComponent implements OnInit {
     return true;
   }
 
-  public getColor(): String{
+  public getColor(): String {
     return 'blue';
   }
 }
