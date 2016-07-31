@@ -30,20 +30,31 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Node Installation
+
+`curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`<br>
+`sudo apt-get install -y nodejs`<br>
+`sudo apt-get install -y build-essential`<br>
+`sudo npm install -g angular-cli`
 
 ## Commands used
 
 `sudo npm install -g angular-cli`<br>
 `sudo ng new angular-cli --prefix t`<br>
 `sudo ng init angular-cli --prefix t`<br>
-vsicons plugin<br>
-*.html,*.ts,*.js,*.css<br>
-*.map,**/tmp,**/e2e,**/dist<br>
 `sudo ng generate component other`<br>
 `git clone https://github.com/NahuelOlgiati/udemy-angular2-section2.git`<br>
 `sudo npm install`<br>
 `sudo typings install`<br><br>
-
 `ng g c another --flat --inline-template --inline-styles`<br>
 -f create in the same folder<br>
--it and -is do not create html and css files<br> 
+-it and -is do not create html and css files<br>
+
+## VS Code Tips
+Ctrl + p<br>
+Ctrl + Shift + p<br>
+Ctrl + b<br>
+Ctrl + Shift + I<br>
+vsicons plugin<br>
+*.html,*.ts,*.js,*.css<br>
+*.map,**/tmp,**/e2e,**/dist<br> 
