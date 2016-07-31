@@ -33,17 +33,17 @@ To get more help on the `angular-cli` use `ng --help` or go check out the [Angul
 
 ## Commands used
 
-sudo npm install -g angular-cli
-sudo ng new angular-cli --prefix t
-sudo ng init angular-cli --prefix t
-vsicons
-*.html,*.ts,*.js,*.css
-*.map,**/tmp,**/e2e,**/dist
-sudo ng generate component other
-git clone https://github.com/NahuelOlgiati/udemy-angular2-section2.git
-sudo npm install
-sudo typings install
+`sudo npm install -g angular-cli`<br>
+`sudo ng new angular-cli --prefix t`<br>
+`sudo ng init angular-cli --prefix t`<br>
+vsicons plugin<br>
+*.html,*.ts,*.js,*.css<br>
+*.map,**/tmp,**/e2e,**/dist<br>
+`sudo ng generate component other`<br>
+`git clone https://github.com/NahuelOlgiati/udemy-angular2-section2.git`<br>
+`sudo npm install`<br>
+`sudo typings install`<br><br>
 
-ng g c another --flat --inline-template --inline-styles
-# -f means in the same folder
-# -it and -is do not create html and css files 
+`ng g c another --flat --inline-template --inline-styles`<br>
+-f create in the same folder<br>
+-it and -is do not create html and css files<br> 
