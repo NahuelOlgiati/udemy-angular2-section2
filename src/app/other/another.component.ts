@@ -4,11 +4,15 @@ import { Component, OnInit } from '@angular/core';
   moduleId: module.id,
   selector: 't-another',
   template: `
-    <p>
-      another Works!
-    </p>
+    <article>
+      <ng-content></ng-content>
+    </article>
   `,
-  styles: []
+  styles: [`
+    article {
+      border: 1px solid black;
+    }
+  `]
 })
 export class AnotherComponent implements OnInit {
 

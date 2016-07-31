@@ -1,0 +1,8 @@
+<h2>String Interpolation</h2>
+{{stringInterpolation}} | {{numberInterpolation}}
+
+<h2>Property Binding</h2>
+<input type="text" [value]="stringInterpolation" [ngClass]="{redBorder:true}"><br>
+<input type="text" [value]="numberInterpolation" [ngClass]="{backgroundGreen:isBackgroundGreen()}"><br>
+<p [ngStyle]="{color: 'blue'}">ngStyle Property</p>
+<p [ngStyle]="{color: getColor()}">ngStyle Property</p>
